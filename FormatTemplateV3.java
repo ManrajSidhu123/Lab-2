@@ -32,8 +32,14 @@ public class FormatTemplateV3 {
         // a new line character that works on every computer system
         String nl = System.lineSeparator();
         
+        // why do you have two arrayalists?
+        // name is not an object it's a field (property) of a ProductKey object
+        // price is not an object it's a field (property) or a ProductKey object
+        
          ArrayList<ProductKey> name = new ArrayList<>();
          ArrayList<ProductKey> price = new ArrayList<>();
+        
+        // you should have one array list of type ProductKey that will be your collection of ProductKey objects
        
     // ***** objects *****
     
@@ -72,6 +78,8 @@ public class FormatTemplateV3 {
             tokens = strin.split(delim);
             name(n) = tokens[0];
             price(p) = Double.parseDouble(tokens[1]);
+            
+            // this is where you create and add a Product object to the list
             
             strin = fin.readLine();
         }// end eof
