@@ -1,0 +1,7 @@
+Chocolate 1.75
+Chips 1.89
+Banana 0.95
+Cookie 0.75
+Unknown 0.0
+FishStick 2.15
+JellyBean 0.25
