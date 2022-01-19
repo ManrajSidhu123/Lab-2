@@ -86,6 +86,7 @@ public class FormatTemplateV3 {
     
         // print the list
         
+        //only one arraylist means only one for loop to print the list
         for(ProductKey n: name){
             System.out.println(n);
         } // end for
