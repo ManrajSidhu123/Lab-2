@@ -4,12 +4,12 @@ import java.io.*;
 import java.text.NumberFormat;
 import java.util.ArrayList;
 /** ***************************************************
- *  Name:           Sveinson
+ *  Name:           Manraj
  *  Class:          CS30S
  * 
- *  Assignment:     Ax Qy
+ *  Assignment:     Lab 2
  * 
- *  Description:    Place a short description of your program here
+ *  Description:    loading from file directly in driver
  * 
  *************************************************************/
 
@@ -47,9 +47,9 @@ public class Driver {
     // ***** print banners *****
     
         banner = "*****************************" + nl;
-        banner += "Name:        Sveinson" + nl;
+        banner += "Name:        Manraj" + nl;
         banner += "Class:       CS30S" + nl;
-        banner += "Assignment:  Ax Qy" + nl;
+        banner += "Assignment:  Lab 2" + nl;
         banner += "*****************************" + nl + nl;
         
         System.out.println(banner);

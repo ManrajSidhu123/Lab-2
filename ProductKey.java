@@ -1,11 +1,11 @@
 /********************************************************************
- * Programmer:      your name here
+ * Programmer:      MAnraj
  * Class:           CS30S
  *
  * Assignment:      OOP Lab 1 ProductKey Class
  *
- * Description:     add you code as directed by the comments and the 
- *                  instructions
+ * Description:     loading from file directly
+ *                  
  ***********************************************************************/
 public class ProductKey{
     // fields
