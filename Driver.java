@@ -68,7 +68,7 @@ public class Driver {
             //System.out.println(strin);
             
             tokens = strin.split(delim);
-            name = tokens[0];
+            nam = tokens[0];
             price = Double.parseDouble(tokens[1]);
             
             strin = fin.readLine();
