@@ -62,14 +62,31 @@ public class Driver {
         // echo input back to console window
     
     // ***** Main Processing *****
+    
+            ProductKey n1 = new ProductKey("Chocolate", 1.75);
+            ProductKey n2 = new ProductKey("Chips", 1.89);
+            ProductKey n3 = new ProductKey("Banana", 0.95);
+            ProductKey n4 = new ProductKey("Cookie", 0.75);
+            ProductKey n5 = new ProductKey("Unknown", 0.0);
+            ProductKey n6 = new ProductKey("Fishstick", 2.15);
+            ProductKey n7 = new ProductKey("JellyBean", 0.25);
+            
+        // loading array list   
+            data.add(n1);
+            data.add(n2);
+            data.add(n3);
+            data.add(n4);
+            data.add(n5);
+            data.add(n6);
+            data.add(n7);
         
         strin = fin.readLine();
         while(strin != null){
             //System.out.println(strin);
             
             tokens = strin.split(delim);
-            nam = tokens[0];
-            price = Double.parseDouble(tokens[1]);
+            String name = tokens[0];
+            Double price = Double.parseDouble(tokens[1]);
             
             strin = fin.readLine();
         }// end eof
@@ -79,6 +96,8 @@ public class Driver {
         for(ProductKey n: data){
             System.out.println(n);
         } // end for
+        
+       
 
     // ***** Print Formatted Output *****
     
