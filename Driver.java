@@ -13,7 +13,7 @@ import java.util.ArrayList;
  * 
  *************************************************************/
 
-public class FormatTemplateV3 {
+public class Driver {
 
     public static void main(String[] args) throws IOException{
     // ***** constants *******
@@ -32,8 +32,7 @@ public class FormatTemplateV3 {
         // a new line character that works on every computer system
         String nl = System.lineSeparator();
         
-         ArrayList<ProductKey> name = new ArrayList<>();
-         ArrayList<ProductKey> price = new ArrayList<>();
+         ArrayList<ProductKey> data = new ArrayList<>();
        
     // ***** objects *****
     
@@ -63,28 +62,23 @@ public class FormatTemplateV3 {
         // echo input back to console window
     
     // ***** Main Processing *****
-    
-    
+        
         strin = fin.readLine();
         while(strin != null){
             //System.out.println(strin);
             
             tokens = strin.split(delim);
-            name(n) = tokens[0];
-            price(p) = Double.parseDouble(tokens[1]);
+            name = tokens[0];
+            price = Double.parseDouble(tokens[1]);
             
             strin = fin.readLine();
         }// end eof
     
         // print the list
         
-        for(ProductKey n: name){
+        for(ProductKey n: data){
             System.out.println(n);
         } // end for
-        
-        for (ProductKey p: price){
-            System.out.println(p); 
-        }// end for 
 
     // ***** Print Formatted Output *****
     
