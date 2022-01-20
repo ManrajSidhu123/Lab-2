@@ -85,19 +85,32 @@ public class Driver {
             //System.out.println(strin);
             
             tokens = strin.split(delim);
-            String name = tokens[0];
-            Double price = Double.parseDouble(tokens[1]);
+            String Name = tokens[0];
+            Double Price = Double.parseDouble(tokens[1]);
             
             strin = fin.readLine();
         }// end eof
-    
-        // print the list
         
         for(ProductKey n: data){
             System.out.println(n);
         } // end for
         
-       
+          System.out.println();    
+          System.out.println("The 4th menu item is: " + data.get(3).getName());
+          System.out.println("The 2nd menu costs: " + data.get(1).getPrice());
+          
+          System.out.println();    
+          
+          data.get(3).setName("Oreo Cookie");
+          data.get(2).setPrice(1.05);
+          data.get(4).setName("Sushi");
+          data.get(4).setPrice(3.45);
+          
+        // print the list
+        
+        for(ProductKey n: data){
+            System.out.println(n);
+        } // end for
 
     // ***** Print Formatted Output *****
     
